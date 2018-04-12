@@ -91,7 +91,7 @@ verify if it's up and running:
 
     - ``connected`` is true when you switch on your provisioned robot. The
       agent on the robot has contacted the master to advertise its presence
-      in the platform and the master agent recognise him as one the the robot
+      in the platform and the master agent recognise him as one the robot
       provisioned by the user
 
     - ``paired`` is true when the robot is associated with a server (as its
@@ -109,7 +109,7 @@ create a new service logic.
 Often the robot is a machine less computationally equipped but that needs
 more power that he has in order to do all what he has to do. The robot is
 associated with an additional brain at the boot time (after the installation
-of the rcm robot agent and the robot provisioning) and and has a role in the
+of the rcm robot agent and the robot provisioning) and has a role in the
 platform which means what he can do in the platform: this is defined by
 the service logic.
 In terms of robotic world the logic units are tied with the underlying
